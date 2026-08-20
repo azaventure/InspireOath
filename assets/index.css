@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+    background-color: white;
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+    color: #D29A5E; 
+}
+
+#company-motto {
+    text-align: center;
+    font-size: 4em;
+    color: #5DA9A5;
+}
+
+.text-box {
+    font-size: 1.5em;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-box ol,ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.text-box ul {
+    text-align: left;
+}
+
+nav {
+    background-color: #A5C56C;
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.guru-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.sunflower-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
